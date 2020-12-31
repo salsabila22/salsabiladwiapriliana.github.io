@@ -1,0 +1,197 @@
+.jumbotron {
+	height: auto;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.jumbotron .background {
+    height: 600px;
+    overflow: hidden;
+}
+
+#particles-js {
+	width: 100%;
+	height: 610px;
+	position: absolute;
+	z-index: 0;
+}
+
+.title {
+	position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.photo {
+	position: absolute;
+
+}
+
+.desc {
+	text-indent: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.pfolio>a>img {
+    box-shadow: 5px 5px 7px grey;
+}
+
+.container-overlay .overlay {
+    text-align: center;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    display: none;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.container-overlay .overlay:target {
+    display: block;
+}
+
+.container-overlay .overlay header {
+    background-color: #000;
+    height: 70px;
+    padding: 20px 30px;
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+.container-overlay .overlay header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-overlay .overlay header a:hover {
+    opacity: .5;
+}
+
+.container-overlay .overlay main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container-overlay .overlay main .previous img,
+.container-overlay .overlay main .nexting img {
+    width: 50px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.container-overlay .overlay main .previous img {
+    top: 45%;
+    left: 100px;
+}
+
+.container-overlay .overlay main .nexting img {
+    top: 45%;
+    right: 100px;
+}
+
+.container-overlay .overlay main img {
+    flex: 0 0 35%;
+}
+
+.container-overlay .overlay p {
+    color: #000 !important;
+    font-size: 20px;
+}
+
+.sosmed {
+	font-size: 20px;
+}
+
+.sosmed span {
+	font-size: 40px !important;
+}
+
+.to-top {
+    opacity: .5 !important;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    transition: .5s;
+}
+
+.trans {
+    opacity: 0 !important;	
+}
+
+.to-top:hover {
+    opacity: 1 !important;
+}
+
+.to-top img {
+    width: 50px;
+}
+
+/*Mobile Mode*/
+@media(max-width: 670px) {
+	.title {
+		position: relative;
+		top: 100px;
+		text-align: center;
+	}
+
+	.photo {
+		top: -450px;
+		margin-left: -100px;
+	}
+
+	#portofolio .row {
+		padding: 20px;
+	}
+
+	.container .pfolio {
+		padding: 30px !important;
+		margin-bottom: -50px !important;
+	}
+
+   .container-overlay .overlay header {
+        width: 100%;
+        background-color: #000;
+        padding: 20px;
+        text-align: right;
+        margin-bottom: 70px;
+    }
+
+    .container-overlay .overlay main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: static !important;
+    }
+
+    .container-overlay .overlay main img {
+    	width: 270px;
+        flex: 0 0 50%;
+    }
+
+    .container-overlay .overlay .previous img,
+    .container-overlay .overlay .nexting img {
+        width: 30px !important;
+        text-decoration: none;
+        position: static !important;
+    }
+
+    .sosmed {
+    	margin-top: -100px;
+    }
+}
+
+/*font-size: 50px; background-color: white; padding: 0px 10px; border-radius: 100% untuk tombol<>*/

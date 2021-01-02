@@ -194,4 +194,10 @@ a {
     }
 }
 
+@media(max-width: 1000px) {
+    .title {
+        position: relative;
+        top: 200px;
+    }
+}
 /*font-size: 50px; background-color: white; padding: 0px 10px; border-radius: 100% untuk tombol<>*/

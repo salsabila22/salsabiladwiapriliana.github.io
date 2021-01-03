@@ -1,3 +1,7 @@
+body {
+	min-height: 100vh;
+}
+
 .jumbotron {
 	height: auto;
     padding: 0 !important;

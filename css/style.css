@@ -1,3 +1,18 @@
+html {
+    position: relative;
+}
+
+body {
+    padding-bottom: 70px !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .jumbotron {
 	height: auto;
     padding: 0 !important;

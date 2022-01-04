@@ -63,8 +63,8 @@ const scrollTo = (startTime, currentTime, duration, scrollEndElemTop, startScrol
 }
 
 document.getElementById('cv').addEventListener('click', function (e) {
-	window.location.href = '#'
-    //window.location.href = 'assets/Curriculum Vitae - Salsabila Dwi Apriliana.pdf'
+    window.location.href = '#'
+//assets/Curriculum Vitae - Salsabila Dwi Apriliana.pdf
 })
 
 document.getElementById('portofolio').addEventListener('click', function (e) {
